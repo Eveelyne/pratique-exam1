@@ -5,12 +5,11 @@
     --color-vert: #5F7A69;
     --color-olive: #94A187;
     --color-black: #06070E;
-    overflow-x: hidden;
 }
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-flow: wrap column;
     gap: 25px;
     background-color: orange;
     height: 100vh;
